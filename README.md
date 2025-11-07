@@ -3,9 +3,11 @@
 
 This project models the database system for NHD (New Horizons Decor), a business that manages booth rentals for dealers inside a mall. The goal was to replace manual record-keeping with a structured database that keeps track of dealers, booths, leases, products, and sales. By doing this, NHD can easily manage payments, organize data, and make better business decisions.
 
+
 **Overview**
 
 The database was designed in SQL Server Management Studio (SSMS) and follows Third Normal Form (3NF). It focuses on accuracy, organization, and reducing redundancy. Each table has a specific role, and relationships between tables are managed through primary and foreign keys to maintain referential integrity.
+
 
 **Entities and Purpose**
 
@@ -14,6 +16,7 @@ BOOTH – Describes booth locations, features, and availability.
 LEASES – Connects dealers to booths and includes rent and commission information.
 PRODUCT – Lists product details and prices.
 SALES – Tracks sales transactions and which dealer sold which product.
+
 
 **Entity Relationship Diagrams (ERD)**
 
@@ -73,6 +76,7 @@ Database Design and Normalization
 Entity Relationship Diagrams (ERD)
 
 Data Analysis through Queries
+
 
 **Reflection**
 
