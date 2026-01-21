@@ -40,6 +40,8 @@ Below are the results from the five main queries in the project:
 ### Question 1 – Total Sales for March
 Shows the number of sales made by each dealer during March 2022.
 
+![Question 1](query1_total_sales_march.png)
+
 ### Question 2 – NHD Amount Due for March
 Calculates how much each dealer owes the mall after commission and rent.
 
