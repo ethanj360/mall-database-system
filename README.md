@@ -19,8 +19,12 @@ The database was designed in SQL Server Management Studio (SSMS) and follows Thi
 ### Cardinality Diagram
 Shows the conceptual relationships and cardinalities between each entity.
 
+![Cardinalities](images/ERD_cardinalities.png)
+
 ### Implemented ERD (SQL Server)
 Displays the final database design as created in SQL Server.
+
+![ERD](images/mall_database_ERD.png)
 
 ## How to Run
 
@@ -32,6 +36,8 @@ Displays the final database design as created in SQL Server.
 ## Sample Data
 
 The database was tested with 15 sample records for each table to ensure accuracy and maintain proper relationships between entities.
+
+![Mock Data](images/mall_database_mockdata.png)
 
 ## Query Results
 
@@ -45,14 +51,22 @@ Shows the number of sales made by each dealer during March 2022.
 ### Question 2 – NHD Amount Due for March
 Calculates how much each dealer owes the mall after commission and rent.
 
+![Question 2](images/query2_NHD_amount_due.png)
+
 ### Question 3 – Dealer Booth Details
 Lists each dealer’s booth, location, rent, and booth features.
+
+![Question 3](images/query3_dealer_booth_details.png)
 
 ### Question 4 – NHD Revenue for January
 Displays the mall’s total revenue for January based on rent and commission.
 
+![Question 4](images/query4_NHD_revenue_january.png)
+
 ### Question 5 – Booths Available
 Lists all booths currently vacant.
+
+![Question 5](images/query5_booths_available.png)
 
 ## Tools and Skills
 
